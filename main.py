@@ -18,7 +18,7 @@ from livekit.plugins import cartesia, deepgram, openai, silero
 print(certifi.where())
 
 # Load environment variables
-load_dotenv(dotenv_path=".env.local")
+load_dotenv(dotenv_path=".env")
 logger = logging.getLogger("voice-agent")
 
 
